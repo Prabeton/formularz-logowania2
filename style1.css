@@ -1,0 +1,242 @@
+.container {
+  display: block;
+  margin: auto;
+  width: 320px;
+  height: 90vh;
+}
+
+.maly {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 40px;
+  width: 280px;
+  height: 253px;
+  background-image: url(images/image633.png), url(images/Rectangle2266.png);
+  background-blend-mode: multiply;
+  background-size: 320px 253px;
+}
+#CC {
+  width: 53px;
+  height: 53px;
+}
+#OO {
+  width: 57px;
+  height: 57px;
+}
+#IW {
+  width: 112px;
+  height: 50px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+#Napis {
+  width: 110px;
+  height: 40px;
+  margin-top: 5px;
+}
+#CCOO {
+  height: 60px;
+  display: inline;
+  margin-bottom: 5px;
+}
+/*----------------------------------------------------*/
+#zaloguj {
+  font-size: 24px;
+  font-weight: 500;
+  justify-content: flex-start;
+  color: black;
+  font-style: unset;
+}
+.ikonka {
+  width: 27px;
+  height: 27px;
+}
+p {
+  font-family: rubik;
+  color: black;
+  font-weight: 500;
+}
+.szerokie {
+  width: 256px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 30px;
+  align-items: center;
+}
+a {
+  font-family: rubik;
+  font-size: 12px;
+  font-style: normal;
+  color: #64606a;
+  border-bottom: 3px solid #284642;
+  text-decoration: none;
+}
+#konto {
+  font-size: 12px;
+  font-family: rubik;
+  color: #64606a;
+}
+#zapamietaj {
+  font-size: 10px;
+  color: #64606a;
+}
+button {
+  background-color: white;
+  border-radius: 7px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1.5px solid #284642;
+  box-sizing: border-box;
+}
+#zielony {
+  background-color: #284642;
+  border-radius: 7px;
+  border-color: #284642;
+  margin-bottom: 20px;
+}
+#zielony > p {
+  color: white;
+}
+#checkbox {
+  display: flex;
+  justify-content: space-between;
+  color: #64606a;
+  margin-top: 10px;
+}
+#input {
+  height: 56px;
+  width: 248px;
+  font-size: 16;
+  font-weight: 400;
+  color: black;
+  border: 1px solid #edebf0;
+  border-radius: 7px;
+
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+#hr {
+  color: #edebf0;
+  width: 253px;
+  height: 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#hrmaly {
+  color: #edebf0;
+  width: 65px;
+  height: 1px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#szary {
+  font-size: 10px;
+  color: #64606a;
+}
+#linia {
+  display: flex;
+  justify-content: center;
+}
+#brakkonta {
+  display: flex;
+  justify-content: flex-start;
+}
+.formularz {
+  width: 320px;
+}
+.label {
+  position: relative;
+  font-size: 10px;
+  font-family: rubik;
+  color: #64606a;
+  top: 18px;
+  left: 40px;
+  padding: 2px;
+  background-color: white;
+}
+/*-------------------------------------*/
+@media (min-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: auto;
+    width: 1920px;
+    height: 1080px;
+  }
+  .maly {
+    display: flex;
+    width: 1080px;
+    height: 900px;
+    align-items: center;
+    justify-content: center;
+    background-size: 1130px 900px;
+  }
+  .formularz {
+    display: block;
+    padding-left: 140px;
+    padding-top: 150px;
+    width: 700px;
+    height: 900px;
+  }
+  .szerokie {
+    width: 480px;
+    display: flex;
+    justify-content: center;
+  }
+  .social {
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 30px;
+  }
+  #szary {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  #linia {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    width: 480px;
+    margin-left: 30px;
+  }
+  #hrmaly {
+    width: 140px;
+  }
+  /*--------------------------------*/
+  #CC {
+    width: 137px;
+    height: 137px;
+  }
+  #OO {
+    width: 147px;
+    height: 147px;
+  }
+  #IW {
+    width: 288px;
+    height: 127px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+  }
+  #Napis {
+    width: 281px;
+    height: 96px;
+    margin-top: 20px;
+  }
+  #CCOO {
+    height: 147px;
+    display: inline;
+    margin-bottom: 5px;
+  }
+  #input {
+    width: 475px;
+    font-size: 16px;
+  }
+  #hr {
+    width: 475px;
+    margin-left: 30px;
+  }
+}
